@@ -1,5 +1,5 @@
 //This is a very rough & simple model of an ATM. I just practiced my concepts on this & tried to add 2-3 features of an actual ATM machine. There must be alot of mistakes that I've made in this code. It'd be appreciatable if you figure out & share your knowledge.
-
+//Will update it more perfectly later, there are more fun features to add right now in this project.
 
 #include <iostream>
 using namespace std;
