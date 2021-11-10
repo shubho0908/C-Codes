@@ -1,0 +1,109 @@
+
+//Questions are related on Anime shows basis.
+//I'll continue to edit this code later on, it works good but still want to change it and make it more interesting.
+//Will update once I done re-creating this project.
+
+#include <iostream>
+using namespace std;
+
+class game
+{
+public:
+    int corrct = 0;
+    int answer1()
+    {
+        char ans;
+        cout << "1. Who is the Mangaka of Attack on Titan?" << endl;
+        cout << "a) Akira Toriyama" << endl;
+        cout << "b) Eiichiro Oda" << endl;
+        cout << "c) Hajime Isayama" << endl;
+        cout << "d) Hiromu Arakawa" << endl;
+        cin >> ans;
+
+        if (ans == 'c')
+        {
+            cout << "Correct Answer" << endl;
+            // cout << endl;
+            cout << "You won $100, Your balance is $100." << endl;
+            corrct++;
+        }
+        else if (ans != 'c')
+        {
+            cout << "Oh no! Wrong Answer." << endl;
+            cout << "Correct answer is c) Hajime Isayama" << endl;
+            corrct;
+        }
+    }
+    int answer2()
+    {
+        char ans2;
+        cout << "2. Who was the original person behind Tobi in 'Naruto'?" << endl;
+        cout << "a) Madara Uchiha" << endl;
+        cout << "b) Obito Uchiha" << endl;
+        cout << "c) Itachi Uchiha" << endl;
+        cout << "d) Shisui Uchiha" << endl;
+        cin >> ans2;
+
+        if (ans2 == 'b')
+        {
+            cout << "Correct Answer" << endl;
+            // cout << endl;
+            cout << "You won $500, Your balance is $500." << endl;
+            corrct++;
+        }
+        else if (ans2 != 'b')
+        {
+            cout << "Oh no! Wrong Answer.";
+            cout << "Correct answer is b) Obito Uchiha";
+            corrct;
+        }
+    }
+    int answer3()
+    {
+        char ans3;
+        cout << "3. Why did Sasuke left Konoha?" << endl;
+        cout << "a) To obtain powers" << endl;
+        cout << "b) To kill Itachi" << endl;
+        cout << "c) To become Hokage" << endl;
+        cout << "d) To become youtuber" << endl;
+        cin >> ans3;
+
+        if (ans3 == 'a')
+        {
+            corrct++;
+            cout << "Correct Answer" << endl;
+            // cout << endl;
+            cout << "You won $1500, Your balance is $1500." << endl;
+            cout << "Thanks for playing KBO, See you soon!" << endl;
+            cout << "You've correctly answerd " << corrct << " out of 3.";
+        }
+        else if (ans3 != 'a')
+        {
+            corrct;
+            cout << "Oh no! Wrong Answer." << endl;
+            cout << "Correct answer is a) To obtain powers" << endl;
+            cout << "You've correctly answerd " << corrct << " out of 3.";
+        }
+    }
+};
+
+int main()
+{
+    char name[10];
+    int a, b, c, d;
+    cout << "Welcome to KBO, 'Kaun Banega Otaku?'" << endl;
+    cout << endl;
+    cout << "------------------------------------" << endl;
+    cout << endl;
+    cout << "Enter your name : ";
+    cin >> name;
+    cout << endl;
+    cout << "Your balance is $0." << endl;
+    cout << endl;
+    game anime;
+    anime.answer1();
+    anime.answer2();
+    anime.answer3();
+
+    return 0;
+}
