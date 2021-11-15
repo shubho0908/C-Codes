@@ -15,7 +15,7 @@ int money = 0;
 
 int display()
 {
-    system("cls");
+
     cout << "                                                                      WELCOME TO KAUN BANEGA CROREPATI (KBC)                                                         " << endl;
     cout << endl;
     cout << endl;
