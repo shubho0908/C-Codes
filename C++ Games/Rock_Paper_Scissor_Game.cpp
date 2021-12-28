@@ -2,6 +2,8 @@
 #include <time.h>
 using namespace std;
 
+//This code is inspired by CodeWithHarry sir.
+
 int game(char you, char comp)
 {
     //Draw
