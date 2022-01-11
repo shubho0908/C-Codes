@@ -1,4 +1,6 @@
 //Stock-exchange program
+//This code is written by me and my friend Chandan Sahu, Thanks for the help bud!
+
 #include <iostream>
 #include <fstream>
 #include <string>
