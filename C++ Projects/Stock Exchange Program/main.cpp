@@ -754,8 +754,8 @@ int RL()
 int main()
 {
     system("cls");
-    // Open();
-    sell();
+    Open();
+    
 
     return 0;
 }
