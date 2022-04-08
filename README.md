@@ -1,4 +1,4 @@
-# 𝗖𝗣𝗣-𝗣𝗿𝗼𝗷𝗲𝗰𝘁𝘀
+# CPP-Projects
 
 C++ is the first language I decided to learn as a Programmer. I know people usually starts with Python but CPP was in my course so that's why I chose to learn this first.
 Tbh, CPP wasn't as hard I've heard from people. May be this was my first language that's why it didn't felt that hard.
@@ -7,7 +7,7 @@ Learned the basics and fundamentals by following these 2 course:
 1: https://bit.ly/3NVMevG
 2: https://bit.ly/3jduAp0
 
-# 𝗪𝗵𝗮𝘁 𝗮𝗿𝗲 𝘁𝗵𝗲 𝗽𝗿𝗼𝗷𝗲𝗰𝘁𝘀 𝗜 𝗺𝗮𝗱𝗲 𝘂𝘀𝗶𝗻𝗴 𝗖++?
+# What are the projects I made using C++ ?
 
 ♦ 𝗔𝗧𝗠 𝗠𝗮𝗰𝗵𝗶𝗻𝗲: Tried my best to create a program that can work like an ATM, of course, it won't be dealing with money. Tried to add 2-3 features of an actual ATM. Will update more in the future!
 
